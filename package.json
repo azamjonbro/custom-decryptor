@@ -1,15 +1,16 @@
 {
-  "name": "custom-decryptor",
+  "name": "@azamjonbro/custom-decryptor",
   "version": "1.0.1",
   "description": "Custom decryption module",
   "main": "decryptor.js",
-  "author": "Your Name",
-  "license": "MIT",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "author": "Azamjonbro",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
